@@ -45,7 +45,7 @@
 python -m venv venv
 
 # فعال‌سازی در لینوکس/مک
-source venv/bin/activate
+source venv/bin/activate```
 
 ### ۳. نصب وابستگی‌ها
 فایل requirements.txt شامل تمام کتابخانه‌های مورد نیاز است.
