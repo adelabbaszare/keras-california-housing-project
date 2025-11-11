@@ -19,96 +19,16 @@ This project develops a deep learning model using **Keras/TensorFlow** to predic
 
 The dataset includes aggregated data for districts across California, focusing on eight key features:
 
-|
-
-Feature Name
-
- |
-
-Description
-
- |
-|
-
-**MedInc**
-
- |
-
-Median income for households within a block group.
-
- |
-|
-
-**HouseAge**
-
- |
-
-Median house age within a block group.
-
- |
-|
-
-**AveRooms**
-
- |
-
-Average number of rooms per household.
-
- |
-|
-
-**AveBedrms**
-
- |
-
-Average number of bedrooms per household.
-
- |
-|
-
-**Population**
-
- |
-
-Block group population.
-
- |
-|
-
-**AveOccup**
-
- |
-
-Average house occupancy.
-
- |
-|
-
-**Latitude**
-
- |
-
-Block group latitude (Y-axis).
-
- |
-|
-
-**Longitude**
-
- |
-
-Block group longitude (X-axis).
-
- |
-|
-
-**MedHouseVal** (Target)
-
- |
-
-Median house value (in $100,000s).
-
- |
+| Feature Name | Description |
+| **MedInc** | Median income for households within a block group.|
+| **HouseAge**| Median house age within a block group.|
+| **AveRooms**| Average number of rooms per household.|
+| **AveBedrms**| Average number of bedrooms per household.|
+| **Population**| Block group population.|
+| **AveOccup**| Average house occupancy.|
+| **Latitude**| Block group latitude (Y-axis).|
+|**Longitude**| Block group longitude (X-axis).|
+|**MedHouseVal** (Target)|Median house value (in $100,000s).|
 
 ⚙️ Setup and Installation
 -------------------------
