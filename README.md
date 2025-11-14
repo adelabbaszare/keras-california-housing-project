@@ -107,7 +107,7 @@ The `train.py` script prepares the data but does not run SandDance itself. You c
 
 1.  Ensure you have run `train.py` to generate the file: **`california_housing_for_sanddance.csv`**.
 
-2.  Open the **SandDance Viewer** in your browser: [https://sanddance.js.org/app/]([https://sanddance.js.org/app/](https://microsoft.github.io/SandDance/app/ "SandDance")
+2.  Open the **SandDance Viewer** in your browser: [SandDance](https://microsoft.github.io/SandDance/app/ "SandDance")
 
 3.  Drag and drop the `california_housing_for_sanddance.csv` file onto the page.
 
