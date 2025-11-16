@@ -1,9 +1,16 @@
-California Housing Price Prediction & Comprehensive EDA
+# California Housing Price Prediction & Comprehensive EDA
+![keras california housing project](https://github.com/adelabbaszare/keras-california-housing-project/blob/main/plots/3_geo_price_map.png)
+[![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot)
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+[![Frameworks](https://img.shields.io/badge/Frameworks-PyTorch-orange?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Frameworks](https://img.shields.io/badge/Keras-red?logo=keras&logoColor=white)](https://keras.io/)
+[![Frameworks](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+
 =======================================================
 
 This project develops a deep learning model using **Keras/TensorFlow** to predict median house values in California, based on the built-in `california_housing` dataset. Beyond core model training, it features a complete **Exploratory Data Analysis (EDA)** and visualization component using **Pandas, Matplotlib, and Seaborn**.
 
-🎯 Project Goals
+## 🎯 Project Goals
 ----------------
 
 1.  **Data Analysis:** Perform comprehensive EDA on the housing dataset, including feature distribution, correlation analysis, and geographical plotting.
@@ -14,7 +21,7 @@ This project develops a deep learning model using **Keras/TensorFlow** to predic
 
 4.  **Interactive Prep:** Prepare and export clean data for powerful interactive visualization using the **SandDance** tool.
 
-💾 Dataset Overview
+## 💾 Dataset Overview
 -------------------
 
 The dataset includes aggregated data for districts across California, focusing on eight key features:
@@ -31,7 +38,7 @@ The dataset includes aggregated data for districts across California, focusing o
 | **Longitude** | Block group longitude (X-axis). |
 | **MedHouseVal** | (Target)|Median house value (in $100,000s). |
 
-⚙️ Setup and Installation
+## ⚙️ Setup and Installation
 -------------------------
 
 ### 1\. Python Environment
@@ -41,7 +48,7 @@ The dataset includes aggregated data for districts across California, focusing o
 First, create and activate a virtual environment:
 
 ```
-# Create environment (using python3.12, adjust if necessary)
+# Create environment (using python3.12)
 python3.12 -m venv venv
 
 # Activate on Linux/macOS
@@ -56,24 +63,23 @@ source venv/bin/activate
 
 Install all necessary libraries, including TensorFlow, Pandas, and visualization tools, using the updated `requirements.txt` file.
 
-```
+```bash
 pip install -r requirements.txt
-
 ```
 
-🚀 Execution
+## 🚀 Execution
 ------------
 
 Run the main training and analysis script from your active virtual environment:
 
-```
+```python
 python train.py
 
 ```
 
 The script will handle the entire workflow, from data loading and EDA visualization to model training and evaluation.
 
-📊 Results and Outputs
+## 📊 Results and Outputs
 ----------------------
 
 Upon successful execution, the following outputs will be generated:
@@ -98,7 +104,7 @@ A new directory named `plots/` will be created, containing several key visualiza
 
 -   `california_housing_model.keras`: The final, trained Keras model, saved for future inference.
 
-🌐 Interactive Visualization with SandDance
+## 🌐 Interactive Visualization with SandDance
 -------------------------------------------
 
 The `train.py` script prepares the data but does not run SandDance itself. You can use the exported CSV for powerful, interactive 3D visualizations.
@@ -111,4 +117,4 @@ The `train.py` script prepares the data but does not run SandDance itself. You c
 
 3.  Drag and drop the `california_housing_for_sanddance.csv` file onto the page.
 
-4.  Explore the data interactively (e.g., create a 3D plot with **Longitude** on X, **Latitude** on Y, and colored by **MedHouseVal**).
+4.  Explore the data interactively `(e.g., create a 3D plot with **Longitude** on X, **Latitude** on Y, and colored by **MedHouseVal**).`
