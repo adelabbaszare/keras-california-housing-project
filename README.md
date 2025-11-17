@@ -1,7 +1,7 @@
 # California Housing Price Prediction & Comprehensive EDA
 ![keras california housing project](https://github.com/adelabbaszare/keras-california-housing-project/blob/main/plots/3_geo_price_map.png)
-[![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot)
-![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/keras-california-housing-project)
+![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/keras-california-housing-project)
 [![Frameworks](https://img.shields.io/badge/Frameworks-PyTorch-orange?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Frameworks](https://img.shields.io/badge/Keras-red?logo=keras&logoColor=white)](https://keras.io/)
 [![Frameworks](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
@@ -47,9 +47,9 @@ The dataset includes aggregated data for districts across California, focusing o
 
 First, create and activate a virtual environment:
 
-```
-# Create environment (using python3.12)
-python3.12 -m venv venv
+```bash
+# Create environment (using python3.13)
+python3.13 -m venv venv
 
 # Activate on Linux/macOS
 source venv/bin/activate
